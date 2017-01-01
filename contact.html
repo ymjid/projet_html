@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html>
+		<head>
+				<title>Contact Page</title>
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+				<style type="text/css">
+						body {background-image:url(images/contact_background.png);}
+						div.m {position:fixed; bottom:35%; width:140px; padding:15px; background-image:url(images/menu_backgroundhs.png); color:grey;}
+						table {border:2px solid black; position:fixed; background-color:white;}
+						table.about {left:50%; bottom:11%;}
+						p {position:absolute; bottom: 1%}
+						p.v{position:absolute; bottom:4%; }
+				</style>
+		</head>
+		<body>
+				<h1>Contact</h1>
+				<br>
+				<div><form action="mailto:MortMan.games@gmail.com;" method="post" enctype="text/plain">
+				<table>
+						<tr>
+						<td><b>Pseudo :</b></td>
+						<td><input type="text" name="Pseudo" size="32" maxlength="80"/></td>
+						</tr>
+						<tr>
+						<td><b>About:</b></td>
+						<td><input type="text" name="About" size="32" maxlength="120"/></td>
+						</tr>
+						<tr>
+						<td><b>Message :</b></td>
+						<td><textarea name="Message" cols="40" rows="5"></textarea></td>
+						</tr>
+						<tr><td><button style="position:center;" type="submit">Send</button></td><td>(an <a href="http://en.wikipedia.org/wiki/Email_client">Email client</a> is needed)</td></tr>
+				</table>
+				</form>
+				</div>
+				<div>
+				<table class="about">
+						<tr>
+						<td><b>About me</b><br>
+						<img  src="images/yan.png" alt="Yan's Avatar" title="Yan's Avatar">
+						<br>
+						Email : MortMan.games@gmail.com<br>
+						<br>
+						Warcraft III account : <a href="http://classic.battle.net/war3/ladder/w3xp-player-profile.aspx?Gateway=Northrend&PlayerName=MortMan">MortMan</a> (Europe Realm)<br>
+						Nexus Core profile : <a href="http://nexuscore.org/c/index.php?action=profile;u=12">NC Yan</a><br>
+						The Hive Workshop profile : <a href="http://www.hiveworkshop.com/forums/members/yan/">Yan</a> (require to be register to view it.)
+						<br><br>
+						This site is made to evaluate my abilities to use HTML and CSS Languages<br><br>
+						<a href="download/Cahier_des_charges.pdf"
+						onMouseOver="document.getElementById('img_5').src='images/Bill.JPG';"
+						onMouseOut="document.getElementById('img_5').src='images/Bill_off.JPG';">
+						<img class="img" id="img_5" src="images/Bill_off.JPG" alt="Bill of Specifications (in French)" title="Bill of Specifications (in French)"></a>
+						</td>
+						</tr>
+				</table>
+				</div>
+				<br>
+				<div class="m">
+				Menu <br>
+				<a href="index.html"
+				onMouseOver="document.getElementById('img_1').src='images/home_page.gif';"
+				onMouseOut="document.getElementById('img_1').src='images/home_page_off.jpg';">
+				<img class="img" id="img_1" src="images/home_page_off.jpg" alt="Home Page" title="Home Page"></a>
+				<a href="project.html"
+				onMouseOver="document.getElementById('img_3').src='images/project_page.gif';"
+				onMouseOut="document.getElementById('img_3').src='images/project_page_off.jpg';">
+				<img class="img" id="img_3" src="images/project_page_off.jpg" alt="Warcraft III Projects" title="Warcraft III Projects"></a>
+				</div>
+				<p class="v">
+				<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fetudiant.univ-mlv.fr%2F%7Eymjid%2Fcontact.html&profile=css3&usermedium=all&warning=1&vextwarning=">
+    			<img style="border:0;width:88px;height:31px"
+      		 src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+       		 alt="CSS Valide !" />
+				</a>
+				</p>
+				<p>
+					Creation : <cite> Yan </cite> &copy; 2013
+				</p>
+		</body>
+</html>
